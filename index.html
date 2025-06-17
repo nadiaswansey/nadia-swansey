@@ -1,16 +1,370 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>LiveLab 2 Demo</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intel - Sustainability Through the Ages</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  Hello world
-  <script src="script.js"></script>
-</body>
+    <!-- Dynamic Background -->
+    <div class="dynamic-bg">
+        <div class="bg-gradient"></div>
+        <div class="floating-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+    </div>
 
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-banner">
+            <div class="banner-glow"></div>
+            <div class="tech-grid"></div>
+        </div>
+        <div class="hero-content">
+            <div class="logo-container">
+                <div class="logo">
+                    <span class="logo-text">intel</span>
+                    <div class="logo-chip">
+                        <div class="chip-line"></div>
+                        <div class="chip-line"></div>
+                        <div class="chip-line"></div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-word" data-text="SUSTAINABILITY">SUSTAINABILITY</span>
+                <span class="title-word" data-text="THROUGH">THROUGH</span>
+                <span class="title-word" data-text="THE">THE</span>
+                <span class="title-word" data-text="AGES">AGES</span>
+            </h1>
+            <div class="hero-divider">
+                <div class="divider-line"></div>
+                <div class="divider-dot"></div>
+                <div class="divider-line"></div>
+            </div>
+            <p class="hero-description">
+                <span class="highlight">Explore Intel's journey</span> through time, discovering how our 
+                commitment to <span class="highlight">innovation</span> has shaped a more 
+                <span class="highlight">sustainable future</span> for technology and our planet.
+            </p>
+            <div class="scroll-indicator">
+                <div class="scroll-text">Scroll to explore</div>
+                <div class="scroll-arrow">
+                    <div class="arrow-line"></div>
+                    <div class="arrow-point"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Timeline Section -->
+    <main class="timeline-section">
+        <div class="section-banner">
+            <div class="banner-bg"></div>
+            <h2 class="section-title">Journey Through Innovation</h2>
+            <p class="section-subtitle">Decades of groundbreaking achievements in sustainable technology</p>
+        </div>
+
+        <div class="timeline-container">
+            <div class="timeline-cards">
+                <!-- Card 1968 -->
+                <div class="timeline-card vintage" data-year="1968">
+                    <div class="card-glow"></div>
+                    <div class="card-image">
+                        <div class="image-content founding-bg">
+                            <div class="tech-pattern"></div>
+                            <span class="year-display">1968</span>
+                        </div>
+                        <div class="card-overlay">
+                            <div class="year-badge founding">1968</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>1968</h3>
+                            <div class="icon-badge founding-icon">🏢</div>
+                        </div>
+                        <h4>Intel Founded</h4>
+                        <p>Intel Corporation was founded by Robert Noyce and Gordon Moore, establishing the foundation for semiconductor innovation that would change the world.</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill founding-progress"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 1971 -->
+                <div class="timeline-card breakthrough" data-year="1971">
+                    <div class="card-glow"></div>
+                    <div class="card-image">
+                        <div class="image-content micro-bg">
+                            <div class="tech-pattern"></div>
+                            <span class="year-display">1971</span>
+                        </div>
+                        <div class="card-overlay">
+                            <div class="year-badge micro">1971</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>1971</h3>
+                            <div class="icon-badge micro-icon">🔬</div>
+                        </div>
+                        <h4>First Microprocessor</h4>
+                        <p>Intel introduced the 4004, the world's first microprocessor, revolutionizing computing and launching the digital age.</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill micro-progress"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 1978 -->
+                <div class="timeline-card evolution" data-year="1978">
+                    <div class="card-glow"></div>
+                    <div class="card-image">
+                        <div class="image-content processor-bg">
+                            <div class="tech-pattern"></div>
+                            <span class="year-display">1978</span>
+                        </div>
+                        <div class="card-overlay">
+                            <div class="year-badge processor">1978</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>1978</h3>
+                            <div class="icon-badge processor-icon">⚡</div>
+                        </div>
+                        <h4>8086 Processor</h4>
+                        <p>The 8086 processor introduced 16-bit architecture and established the x86 foundation that powers computing today.</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill processor-progress"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Featured Card 1985 -->
+                <div class="timeline-card featured-card revolution" data-year="1985">
+                    <div class="featured-glow"></div>
+                    <div class="featured-bg">
+                        <div class="featured-pattern"></div>
+                        <div class="featured-particles">
+                            <div class="f-particle"></div>
+                            <div class="f-particle"></div>
+                            <div class="f-particle"></div>
+                        </div>
+                    </div>
+                    <div class="featured-content">
+                        <div class="featured-header">
+                            <span class="featured-year">1985</span>
+                            <div class="featured-icon">🚀</div>
+                        </div>
+                        <h3>386 Processor Revolution</h3>
+                        <p>Intel introduces the 386 processor with 32-bit architecture, ushering in a new era of performance and multitasking for personal computers.</p>
+                        <div class="featured-stats">
+                            <div class="stat">
+                                <span class="stat-number">32</span>
+                                <span class="stat-label">bit</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">16</span>
+                                <span class="stat-label">MHz</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 1993 -->
+                <div class="timeline-card modern" data-year="1993">
+                    <div class="card-glow"></div>
+                    <div class="card-image">
+                        <div class="image-content pentium-bg">
+                            <div class="tech-pattern"></div>
+                            <span class="year-display">1993</span>
+                        </div>
+                        <div class="card-overlay">
+                            <div class="year-badge pentium">1993</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>1993</h3>
+                            <div class="icon-badge pentium-icon">💎</div>
+                        </div>
+                        <h4>Pentium Launch</h4>
+                        <p>The Pentium processor introduced superscalar architecture and advanced power management for efficient computing.</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill pentium-progress"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2006 -->
+                <div class="timeline-card contemporary" data-year="2006">
+                    <div class="card-glow"></div>
+                    <div class="card-image">
+                        <div class="image-content core-bg">
+                            <div class="tech-pattern"></div>
+                            <span class="year-display">2006</span>
+                        </div>
+                        <div class="card-overlay">
+                            <div class="year-badge core">2006</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>2006</h3>
+                            <div class="icon-badge core-icon">🔥</div>
+                        </div>
+                        <h4>Core Architecture</h4>
+                        <p>Intel launched the Core processor family, delivering unprecedented performance per watt across all computing segments.</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill core-progress"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2008 -->
+                <div class="timeline-card sustainable" data-year="2008">
+                    <div class="card-glow"></div>
+                    <div class="card-image">
+                        <div class="image-content green-bg">
+                            <div class="tech-pattern"></div>
+                            <span class="year-display">2008</span>
+                        </div>
+                        <div class="card-overlay">
+                            <div class="year-badge green">2008</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>2008</h3>
+                            <div class="icon-badge green-icon">🌱</div>
+                        </div>
+                        <h4>Green Initiative</h4>
+                        <p>Intel launched comprehensive sustainability initiatives, committing to carbon neutrality and renewable energy adoption.</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill green-progress"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2020 -->
+                <div class="timeline-card future" data-year="2020">
+                    <div class="card-glow"></div>
+                    <div class="card-image">
+                        <div class="image-content rise-bg">
+                            <div class="tech-pattern"></div>
+                            <span class="year-display">2020</span>
+                        </div>
+                        <div class="card-overlay">
+                            <div class="year-badge rise">2020</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>2020</h3>
+                            <div class="icon-badge rise-icon">🎯</div>
+                        </div>
+                        <h4>RISE Initiative</h4>
+                        <p>Intel announced RISE strategy with ambitious 2030 goals, including net positive water use and zero waste to landfill.</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill rise-progress"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-instruction">
+            <div class="instruction-content">
+                <div class="instruction-icon">🎉</div>
+                <p>You've explored Intel's sustainability journey! Each milestone represents our commitment to a greener future.</p>
+                <div class="instruction-arrows">
+                    <div class="arrow left">←</div>
+                    <span>Scroll horizontally</span>
+                    <div class="arrow right">→</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Animate hero title words
+            const titleWords = document.querySelectorAll('.title-word');
+            titleWords.forEach((word, index) => {
+                setTimeout(() => {
+                    word.classList.add('animate');
+                }, index * 200);
+            });
+
+            // Timeline card animations
+            const cards = document.querySelectorAll('.timeline-card');
+            const container = document.querySelector('.timeline-cards');
+            
+            // Intersection Observer for animations
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry, index) => {
+                    if (entry.isIntersecting) {
+                        setTimeout(() => {
+                            entry.target.classList.add('animate-in');
+                        }, index * 150);
+                    }
+                });
+            }, {
+                threshold: 0.2,
+                rootMargin: '0px'
+            });
+
+            cards.forEach(card => {
+                observer.observe(card);
+            });
+
+            // Enhanced hover effects with color transitions
+            cards.forEach(card => {
+                card.addEventListener('mouseenter', () => {
+                    card.style.transform = 'translateY(-20px) scale(1.05)';
+                    const glow = card.querySelector('.card-glow, .featured-glow');
+                    if (glow) {
+                        glow.style.opacity = '1';
+                        glow.style.transform = 'scale(1.2)';
+                    }
+                });
+                
+                card.addEventListener('mouseleave', () => {
+                    card.style.transform = 'translateY(0) scale(1)';
+                    const glow = card.querySelector('.card-glow, .featured-glow');
+                    if (glow) {
+                        glow.style.opacity = '0.3';
+                        glow.style.transform = 'scale(1)';
+                    }
+                });
+            });
+
+            // Smooth horizontal scrolling with momentum
+            let isScrolling = false;
+            container.addEventListener('wheel', (e) => {
+                e.preventDefault();
+                container.scrollBy({
+                    left: e.deltaY * 2,
+                    behavior: 'smooth'
+                });
+            });
+
+            // Progress bar animations
+            setTimeout(() => {
+                document.querySelectorAll('.progress-fill').forEach(bar => {
+                    bar.style.width = '100%';
+                });
+            }, 1000);
+        });
+    </script>
+</body>
 </html>
